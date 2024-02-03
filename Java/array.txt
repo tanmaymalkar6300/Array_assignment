@@ -1,0 +1,70 @@
+Arrays in Java
+
+Assignment 
+
+Q1. What do u mean by an array?
+Ans:- It refers to the index collection of fixed number of homogenous data elements.
+Single variable which holding multiple values which improves readability of the program.
+
+
+Q2.How to create an array?
+Ans:-
+Every array in java is an object hence we create using a new operator.
+Ex:-
+int[ ] a;
+a = new int [5];
+    OR
+int[ ] a =new int[5];
+
+Q3.Can we change the size of an array at run time?
+Ans:-
+No we can’t change the size of an array at run time. We have to create a new array for the new size.
+
+
+Q4. Can u declare an array without assigning the size of an array?
+Ans:- Yes we can declare the array without assigning the size of an array by using an empty pair of square brackets[ ].
+
+Q5. What is the default value of an array?
+Ans:- 
+The default value of an array for boolean is false.
+The default value of an array for char is null character
+The default value of an array for numeric type (byte, short, int, long, float, double) is 0.
+For object references the default value is null
+
+
+
+Q6.What is 1D array with an example?
+Ans:- 
+In 1D array elements are stored in a single row.
+Linear collection of elements of the same type.
+int[ ] a =new int[5];
+int[ ] numbers = {1,2,3,4,5};
+
+
+Q7. Write a program on 2D array.
+Ans:-
+public class Two{
+	public static void main(String[] args){
+	
+		int nums[][]={
+					{2,3,7,5},
+					{1,5,3,5},
+					{8,4,5,6}
+				};
+		for(int a[]:nums)
+		{
+			for(int b:a)
+			{
+				System.out.print(b + " ");
+			}
+				System.out.println();
+		} 
+	}
+}
+
+
+
+
+
+
+ 
